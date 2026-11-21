@@ -13,7 +13,7 @@ android {
         minSdk = 26
         targetSdk = 36
         versionCode = 1
-        versionName = "1.0" // Tên file APK sẽ lấy theo biến này (release-1.0.apk)
+        versionName = "1.0"
     }
 
     buildTypes {
@@ -23,10 +23,9 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            // Đã xóa signingConfig để không bị lỗi missing debug.keystore
         }
         debug {
-            // Đã xóa signingConfig
+            // Để trống
         }
     }
 
@@ -37,15 +36,6 @@ android {
 
     buildFeatures {
         compose = true
-    }
-
-    // Đoạn code tự động đổi tên file APK đầu ra
-    applicationVariants.all {
-        val variant = this
-        outputs.all {
-            val output = this as com.android.build.gradle.internal.api.BaseVariantOutputImpl
-            output.outputFileName = "release-${variant.versionName}.apk"
-        }
     }
 }
 
