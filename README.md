@@ -1,35 +1,35 @@
 # Project Sekai Stickers (Android)
 
-An Android Jetpack Compose rewrite of the **Sekai Stickers** maker (`mcsstudio/sekai-stickers`), preserving the full collection of 359 Project Sekai character sticker templates, custom text rendering, dynamic character color theming, and export workflows.
+Một bản viết lại bằng Android Jetpack Compose của công cụ tạo **Sekai Stickers** (`mcsstudio/sekai-stickers`), giữ nguyên toàn bộ bộ sưu tập gồm 359 mẫu sticker nhân vật Project Sekai, tính năng tùy chỉnh văn bản, tự động đổi màu giao diện theo nhân vật và quy trình xuất ảnh.
 
-## Features
+## Tính năng
 
-- **359 Character Sticker Templates**: Browse and search by character name, ID, or sticker title in an adaptive grid picker.
-- **Live Sticker Canvas**: Real-time `296×256` logical coordinate sticker preview with crisp white rounded outlines, multi-line text, and curved arc text mode.
-- **Interactive Positioning & Typography Controls**:
-  - Drag text directly on the sticker canvas or fine-tune with horizontal (`0–296`) and vertical (`0–256`) sliders.
-  - Adjust rotation (`-10` to `+10`), font size (`10–100px`), line spacing (`18–100px`), and curved text toggle.
-  - Reset back to each character's default text and placement at any time.
-- **Dynamic Character Theming**: Extracts each character's dominant color using the `sqrt` average-color algorithm and derives a matching dark surface palette.
-- **Export & Share**:
-  - **Sao chép (Copy)**: Copies a transparent `592×512` PNG sticker to the Android clipboard via `FileProvider`.
-  - **Tải xuống (Download)**: Saves the PNG directly to `Pictures/SekaiStickers` via `MediaStore` without broad storage permissions.
-  - **Chia sẻ (Share)**: Opens the Android share sheet with the rendered PNG sticker.
+- **359 mẫu sticker nhân vật**: Duyệt và tìm kiếm theo tên nhân vật, ID hoặc tiêu đề sticker trong một lưới chọn thích ứng.
+- **Canvas Sticker Trực tiếp**: Xem trước sticker theo thời gian thực với hệ tọa độ logic `296×256`, viền trắng bo góc sắc nét, văn bản nhiều dòng và chế độ chữ uốn cong.
+- **Điều khiển Vị trí & Kiểu chữ Tương tác**:
+  - Kéo trực tiếp văn bản trên canvas hoặc tinh chỉnh bằng thanh trượt ngang (`0–296`) và dọc (`0–256`).
+  - Điều chỉnh độ xoay (`-10` đến `+10`), cỡ chữ (`10–100px`), khoảng cách dòng (`18–100px`) và bật/tắt chế độ chữ uốn cong.
+  - Đặt lại về văn bản và vị trí mặc định của từng nhân vật bất kỳ lúc nào.
+- **Đổi màu Giao diện theo Nhân vật**: Trích xuất màu chủ đạo của từng nhân vật bằng thuật toán `sqrt` và tạo ra một bảng màu nền tối phù hợp.
+- **Xuất & Chia sẻ**:
+  - **Sao chép (Copy)**: Sao chép sticker PNG `592×512` có nền trong suốt vào clipboard của Android thông qua `FileProvider`.
+  - **Tải xuống (Download)**: Lưu trực tiếp file PNG vào thư mục `Pictures/SekaiStickers` thông qua `MediaStore` mà không cần xin quyền truy cập bộ nhớ rộng rãi.
+  - **Chia sẻ (Share)**: Mở bảng chia sẻ của Android với sticker PNG đã được render.
 
-## Tech Stack
+## Công nghệ sử dụng
 
-- **Language**: Kotlin
-- **UI**: Jetpack Compose + Material 3 (Adaptive layout for phones and tablets)
-- **Image Loading**: Coil Compose
-- **Serialization**: `kotlinx.serialization`
-- **Build System**: Gradle Kotlin DSL (AGP 9.1.1, Android SDK 36, minSdk 26)
+- **Ngôn ngữ**: Kotlin
+- **Giao diện**: Jetpack Compose + Material 3 (Bố cục thích ứng cho điện thoại và máy tính bảng)
+- **Tải ảnh**: Coil Compose
+- **Tuần tự hóa**: `kotlinx.serialization`
+- **Hệ thống Build**: Gradle Kotlin DSL (AGP 9.1.1, Android SDK 36, minSdk 26)
 
-## Credits
+## Ghi nhận đóng góp
 
-- Original concept & web app: [TheOriginalAyaka](https://github.com/theoriginalayaka) & [Modder4869](https://github.com/modder4869)
-- Sticker artwork: [u/SherenPlaysGames](https://www.reddit.com/r/ProjectSekai/comments/x1h4v1/after_an_ungodly_amount_of_time_i_finally_made/)
-- Vietnamese localization & source repo: [mcsstudio/sekai-stickers](https://github.com/mcsstudio/sekai-stickers)
+- Ý tưởng gốc & ứng dụng web: [TheOriginalAyaka](https://github.com/theoriginalayaka) & [Modder4869](https://github.com/modder4869)
+- Tác phẩm sticker: [u/SherenPlaysGames](https://www.reddit.com/r/ProjectSekai/comments/x1h4v1/after_an_ungodly_amount_of_time_i_finally_made/)
+- Việt hóa & mã nguồn: [mcsstudio/sekai-stickers](https://github.com/mcsstudio/sekai-stickers)
 
-## License
+## Giấy phép
 
-Distributed under the MIT License. See [`LICENSE`](./LICENSE) for details.
+Dự án được phân phối dưới giấy phép MIT. Xem chi tiết tại file [`LICENSE`](./LICENSE).
