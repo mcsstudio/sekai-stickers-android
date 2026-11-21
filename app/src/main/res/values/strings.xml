@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sekai Stickers</string>
+    <string name="main_title">Công cụ tạo Sticker Project Sekai</string>
+    <string name="github_star_button">Đánh dấu sao trên GitHub</string>
+
+    <string name="canvas_empty_hint">Chọn một nhân vật để bắt đầu</string>
+    <string name="cd_vertical_position_up">Tăng vị trí dọc</string>
+    <string name="cd_vertical_position_down">Giảm vị trí dọc</string>
+    <string name="cd_horizontal_position_left">Di chuyển sang trái</string>
+    <string name="cd_horizontal_position_right">Di chuyển sang phải</string>
+    <string name="cd_pick_character">Chọn nhân vật</string>
+    <string name="cd_sticker_preview">Xem trước sticker</string>
+    <string name="cd_reset_defaults">Khôi phục mặc định</string>
+    <string name="cd_close_dialog">Đóng</string>
+
+    <string name="label_rotation">Độ xoay</string>
+    <string name="label_font_size">Cỡ chữ</string>
+    <string name="label_line_spacing">Khoảng cách</string>
+    <string name="label_curve_text">Uốn cong chữ?</string>
+    <string name="label_text_input">Văn bản (nhiều dòng)</string>
+
+    <string name="action_copy">Sao chép</string>
+    <string name="action_download">Tải xuống</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_info">Thông tin</string>
+    <string name="action_author">Tác giả</string>
+
+    <string name="snackbar_copied">Đã sao chép ảnh vào clipboard</string>
+    <string name="snackbar_downloaded">Đã lưu ảnh vào thư viện (Pictures/SekaiStickers)</string>
+    <string name="snackbar_download_error">Không thể lưu ảnh sticker</string>
+    <string name="snackbar_copy_error">Không thể sao chép ảnh sticker</string>
+
+    <string name="picker_title">Chọn nhân vật</string>
+    <string name="picker_search_label">Tìm kiếm nhân vật</string>
+    <string name="picker_empty_results">Không tìm thấy nhân vật phù hợp</string>
+
+    <string name="info_title">Thông tin dự án</string>
+    <string name="info_contributors_heading">Công cụ này được hoàn thiện nhờ:</string>
+    <string name="info_ayaka_name">Ayaka</string>
+    <string name="info_ayaka_role">Ý tưởng gốc</string>
+    <string name="info_modder_name">Modder4869</string>
+    <string name="info_modder_role">Hỗ trợ viết code</string>
+    <string name="info_sheren_name">u/SherenPlaysGames</string>
+    <string name="info_sheren_role">Bộ sticker gốc</string>
+    <string name="info_contributors_name">Những người đóng góp</string>
+    <string name="info_contributors_role">Hỗ trợ phát triển dự án</string>
+    <string name="info_source_heading">Bạn có thể tìm thấy mã nguồn hoặc đóng góp tại đây:</string>
+    <string name="info_github_title">GitHub</string>
+    <string name="info_github_subtitle">Mã nguồn (Bản Việt hóa)</string>
+    <string name="info_discord_heading">Discord bot:</string>
+    <string name="info_discord_title">Sekai Stickers</string>
+    <string name="info_discord_subtitle">Thêm niềm vui cho server của bạn.</string>
+    <string name="info_close">Đóng</string>
+</resources>

@@ -1,0 +1,8 @@
+{
+  "name": "Sekai Stickers",
+  "description": "Project Sekai custom sticker maker with 359 character templates, curved text, dynamic character theming, clipboard copy, and gallery export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
